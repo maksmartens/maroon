@@ -18,15 +18,42 @@
 </head>
 
 <body>
+
     <div class="card"> <!-- карта вся -->
+
         <div class="card-header"> <!-- заг колоды + назад + бургер -->
             <svg class="back" width="24" height="24">
                 <use href="sprites.svg#back"></use>
             </svg>
             <div class="header-title">101 поза</div>
-            <svg class="burger" width="24" height="24">
-                <use href="sprites.svg#burger"></use>
-            </svg>
+
+            <div class="main-menu">
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+                <label for="menu-toggle" class="burger-label">
+                    <svg class="burger" width="24" height="24">
+                        <use href="sprites.svg#burger"></use>
+                    </svg>
+                </label>
+
+                <nav class="menu">
+                    <div class="menu-header">
+                        <label for="menu-toggle" class="cross-label">
+                            <svg class="cross" width="14" height="14">
+                                <use href="sprites.svg#cross"></use>
+                            </svg>
+                        </label>
+                    </div>
+
+                    <ul class="menu-list">
+                        <li><a class="menu-link" href="#">Обсуждения</a></li>
+                        <li><a class="menu-link" href="#">Избранное</a></li>
+                        <li><a class="menu-link" href="#">Добавить партнера</a></li>
+                        <li><a class="menu-link" href="#">Подписка</a></li>
+                        <li><a class="menu-link" href="#">Миссия проекта</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
         <div class="tags-poses"> <!-- блок с тегами -->
@@ -46,6 +73,7 @@
             <svg class="shuffle" width="17" height="14">
                 <use href="sprites.svg#shuffle"></use>
             </svg>
+
             <!-- <img class="icon_maroon shuffle" src="files/icons/shuffle.png" alt="shuffle"> -->
         </div>
 
@@ -62,12 +90,12 @@
         </div>
 
         <div class="card-footer"> <!--футер колоды + переслать + коммент -->
-             <svg class="forward" width="24" height="24">
+            <svg class="forward" width="24" height="24">
                 <use href="sprites.svg#forward"></use>
             </svg>
             <!-- <img class="icon_maroon forward" src="files/icons/svg/forward.svg" alt="send"> -->
-            
-          <svg class="like" width="24" height="24">
+
+            <svg class="like" width="24" height="24">
                 <use href="sprites.svg#comment"></use>
             </svg>
             <!-- <img class="icon_maroon comment" src="files/icons/comment.png" alt="comment"> -->
@@ -88,6 +116,9 @@
     </div>
      -->
 
+    <svg class="maroonlogo" width="918" height="90">
+        <use href="sprites.svg#maroonlogo"></use>
+    </svg>
 
 </body>
 
