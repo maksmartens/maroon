@@ -1,0 +1,182 @@
+:root {
+    background-color: #1C0000;
+}
+
+* {
+    box-sizing: border-box;
+    margin-top: 2 px;
+    margin-bottom: 2 px;
+    padding: 0;
+    color: #D6C2B3;
+}
+
+/* html, body {
+    width: 100%;
+    overflow-x: hidden;
+} */
+
+.card {
+    width: 100%;
+    /* Занимает всю доступную ширину */
+    max-width: 440px;
+    height: 96dvh;
+    margin: 0 auto;
+    background-color: #981F24;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card-header {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: serif;
+    font-weight: 100;
+}
+
+.header-title {
+    font-size: 22px;
+    font-weight: light;
+}
+
+.tags-poses {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Roboto', Helvetica, Arial;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.tag {
+    border: #D6C2B3 solid 1px;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.tag:hover {
+    background-color: #D6C2B3;
+    color: #981F24;
+}
+
+.main-pic {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-pic img {
+    height: 360px;
+    opacity: 0.6;
+}
+
+.main-pic img:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.counter-box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto', Helvetica, Arial;
+    font-weight: 300;
+    font-size: 14px;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .icon_maroon {
+    width: 24px;
+} */
+
+.zag-pose-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.zag-pose {
+    font-family: serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.card-footer {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-top: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: serif;
+    font-weight: 100;
+}
+
+.back,
+.burger,
+.shuffle,
+.down,
+.forward,
+.comment,
+.like {
+    stroke: #D6C2B3;
+    fill: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.comment:hover,
+.forward:hover,
+.like:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    fill: #D6C2B3;
+}
+
+.back:hover,
+.burger:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.down:hover {
+    transform: rotate(180deg);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+/* .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 440px;
+    height: 80dvh;
+    background-color: rgba(195, 202, 94, 0.8);
+    display: none;
+}  */

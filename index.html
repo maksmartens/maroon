@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="files/logo_mini.png" type="image/png">
+
+    <title>Maroon Card</title>
+</head>
+
+<body>
+    <div class="card"> <!-- карта вся -->
+        <div class="card-header"> <!-- заг колоды + назад + бургер -->
+            <svg class="back" width="24" height="24">
+                <use href="sprites.svg#back"></use>
+            </svg>
+            <div class="header-title">101 поза</div>
+            <svg class="burger" width="24" height="24">
+                <use href="sprites.svg#burger"></use>
+            </svg>
+        </div>
+
+        <div class="tags-poses"> <!-- блок с тегами -->
+            <div class="tag">все (101)</div>
+            <div class="tag">лицом к лицу (20)</div>
+            <div class="tag tag-active">куниллингус (7)</div>
+            <div class="tag">минет (7)</div>
+            <div class="tag">сзади (22)</div>
+            <div class="tag">стоя (6)</div>
+            <div class="tag">сидя (12)</div>
+            <div class="tag">сохраненное (2)</div>
+            <div class="tag">⁠взаимный лайк (1)</div>
+        </div>
+
+        <div class="counter-box"> <!-- блок счетчик карты + shuffle -->
+            <div class="card-number">2/101</div>
+            <svg class="shuffle" width="17" height="14">
+                <use href="sprites.svg#shuffle"></use>
+            </svg>
+            <!-- <img class="icon_maroon shuffle" src="files/icons/shuffle.png" alt="shuffle"> -->
+        </div>
+
+        <div class="main-pic"> <!-- основная картинка -->
+            <img src="files/9_2.png" alt="">
+        </div>
+
+        <div class="zag-pose-group"> <!-- заг карты + выпадающее -->
+            <span class="zag-pose">Kneeling Cradle</span>
+            <svg class="down" width="14" height="14">
+                <use href="sprites.svg#down_list"></use>
+            </svg>
+            <!-- <img class="icon_maroon down" src="files/icons/down_txt.png" alt="shuffle"> -->
+        </div>
+
+        <div class="card-footer"> <!--футер колоды + переслать + коммент -->
+             <svg class="forward" width="24" height="24">
+                <use href="sprites.svg#forward"></use>
+            </svg>
+            <!-- <img class="icon_maroon forward" src="files/icons/svg/forward.svg" alt="send"> -->
+            
+          <svg class="like" width="24" height="24">
+                <use href="sprites.svg#comment"></use>
+            </svg>
+            <!-- <img class="icon_maroon comment" src="files/icons/comment.png" alt="comment"> -->
+            <svg class="like" width="24" height="24">
+                <use href="sprites.svg#like"></use>
+            </svg>
+
+            <!-- <svg class="like" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M14.1701 20.4128C12.9493 21.6222 11.0585 21.6222 9.83769 20.4128L2.5567 13.1992C-2.31415 8.32822 4.04632 -2.43343 12.0039 5.52413C19.9475 -2.41944 26.308 8.34238 21.4511 13.1992L14.1701 20.4128Z"
+                    stroke="#D6C2B3" stroke-linecap="round" stroke-linejoin="round" />
+            </svg> -->
+        </div>
+    </div>
+    <!-- 
+<div class="menu"> 
+        <p>Menu txt</p>
+    </div>
+     -->
+
+
+</body>
+
+</html>

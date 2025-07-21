@@ -1,0 +1,40 @@
+<svg display="none" xmlns="http://www.w3.org/2000/svg">
+
+<symbol id="back" viewBox="0 0 24 24">
+    <path d="M23.1429 12H0.857178" stroke="#D6C2B3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.85718 6L0.857178 12L6.85718 18" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol id="burger" viewBox="0 0 24 14">
+    <path d="M1.28564 4.5H22.7142" stroke="#D6C2B3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1.28564 9.5H22.7142" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol id="shuffle" viewBox="0 0 17 14">
+    <path d="M7.23333 4.893C6.91237 4.4127 6.50207 4.01496 6.03039 3.72689C5.55871 3.43881 5.03672 3.26716 4.5 3.22363H1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 3.22363H12.5C10 3.22363 8.5 7.11537 8.5 7.11537C8.5 7.11537 7 11.0071 4.5 11.0071H1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.7666 9.34082C10.0876 9.82082 10.498 10.2182 10.9697 10.5058C11.4414 10.7933 11.9634 10.9644 12.4999 11.0072H15.9999" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 1L16 3.22385L14 5.4477" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 8.78345L16 11.0073L14 13.2311" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol id="down_list" viewBox="0 0 14 14">
+    <path d="M0.5 3.8501L6.65 10.0001C6.69489 10.0479 6.74911 10.0861 6.80931 10.1121C6.8695 10.1382 6.9344 10.1516 7 10.1516C7.0656 10.1516 7.1305 10.1382 7.19069 10.1121C7.25089 10.0861 7.30511 10.0479 7.35 10.0001L13.5 3.8501" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+<symbol id="forward" viewBox="0 0 24 24">
+    <path d="M0.857178 21.4287C5.86289 17.143 7.09718 15.4287 12 15.4287H14.5715V20.5715L23.1429 11.143L14.5715 2.57153V7.71439H12.8572C4.28575 7.71439 2.57146 16.2858 0.857178 21.4287Z" stroke-linecap="round" stroke-linejoin="round"/>
+
+</symbol>
+
+<symbol id="comment" viewBox="0 0 24 24">
+    <path d="M13 1.00002C11.1288 0.997318 9.29097 1.49543 7.67723 2.44266C6.06349 3.38989 4.73264 4.75172 3.8228 6.38683C2.91295 8.02194 2.45726 9.87074 2.50302 11.7414C2.54877 13.612 3.0943 15.4363 4.083 17.025L1 23.5L7.474 20.417C8.8547 21.2755 10.4159 21.8015 12.0346 21.9538C13.6532 22.1061 15.2851 21.8805 16.8017 21.2946C18.3183 20.7087 19.6781 19.7787 20.774 18.5778C21.87 17.3769 22.672 15.9378 23.1171 14.3741C23.5621 12.8104 23.6379 11.1647 23.3386 9.5667C23.0392 7.96868 22.3729 6.46201 21.392 5.1654C20.4112 3.86879 19.1426 2.81766 17.6863 2.09483C16.2301 1.372 14.6258 0.997216 13 1.00002Z" stroke-linecap="round" stroke-linejoin="round"/>
+
+</symbol>
+
+<symbol id="like" viewBox="0 0 24 24">
+    <path d="M14.1701 20.4128C12.9493 21.6222 11.0585 21.6222 9.83769 20.4128L2.5567 13.1992C-2.31415 8.32822 4.04632 -2.43343 12.0039 5.52413C19.9475 -2.41944 26.308 8.34238 21.4511 13.1992L14.1701 20.4128Z"
+          stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+
+</svg>
